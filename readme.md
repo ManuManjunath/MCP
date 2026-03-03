@@ -25,7 +25,7 @@ source .venv/bin/activate
 #### Add mcp cli
 uv add "mcp[cli]"
 
-#### To run
+#### To run locally for testing
 mcp dev weather.py
 
 #### Add below to Claude --> Developer Tools --> Edit Config
