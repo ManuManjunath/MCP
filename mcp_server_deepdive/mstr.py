@@ -9,7 +9,7 @@ def get_mstr_model_details() -> str:
     Fetches the details on the data model from MSTR Mosaic API.
     This includes overall description of the model, the list of attributes, metrics and the description for the attributes and metrics present in the model.
     """
-    baseUrl = "https://autotrial.microstrategy.com/MicroStrategyLibrary/api"
+    baseUrl = "https://<>.microstrategy.com/MicroStrategyLibrary/api"
     authPayload = {"username": "", "password": "", "loginMode": 1}
     projectID = ""
     dataModelID = ""
